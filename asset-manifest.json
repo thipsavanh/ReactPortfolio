@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.bda18042.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.bda18042.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.73c16ebd.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.73c16ebd.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/React_Portfolio/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.c18d5f27.chunk.js": "/React_Portfolio/static/js/2.c18d5f27.chunk.js",
+    "static/js/2.c18d5f27.chunk.js.map": "/React_Portfolio/static/js/2.c18d5f27.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "precache-manifest.2b874a6eda21de036176e92b89daf5b6.js": "/React_Portfolio/precache-manifest.2b874a6eda21de036176e92b89daf5b6.js",
+    "service-worker.js": "/React_Portfolio/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/React_Portfolio/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/React_Portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c18d5f27.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.c18d5f27.chunk.js.LICENSE.txt",
+    "static/media/bookmart.png": "/React_Portfolio/static/media/bookmart.624829d4.png",
+    "static/media/ghostapp.png": "/React_Portfolio/static/media/ghostapp.4f1cb58d.png",
+    "static/media/password.png": "/React_Portfolio/static/media/password.a4afce40.png",
+    "static/media/quiz.png": "/React_Portfolio/static/media/quiz.3ffc1cf7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73c16ebd.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.c18d5f27.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.bda18042.chunk.js"
+  ]
+}
