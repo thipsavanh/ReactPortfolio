@@ -61,7 +61,6 @@ class Carousel extends React.Component {
         }
     }
 
-
     handleCardClick = (id, card) => {
         let items = [...this.state.items];
         items[id].selected = items[id].selected ? false : true;
@@ -80,7 +79,6 @@ class Carousel extends React.Component {
             return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
         })
     }
-
 
     render() {
         return(

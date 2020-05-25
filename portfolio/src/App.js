@@ -31,7 +31,6 @@ class App extends React.Component {
     }
   }
 
-
 render() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
@@ -47,8 +46,6 @@ render() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        {/* <div styles={{ backgroundImage: `url(${checkerboard})`}}>
-        </div> */}
         <Route path="/" exact render={() => <About title={this.state.about.title} />} />
         <Route path="/portfolio" render={() => <Portfolio title={this.state.portfolio.title} />} />
         <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />

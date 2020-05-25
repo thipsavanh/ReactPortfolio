@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
+import resume from '../assets/images/Resume.pdf';
 
 class Contact extends React.Component {
 
@@ -63,14 +64,14 @@ class Contact extends React.Component {
               Send
             </Button>
            
-            <div className="col-12 col-lg-6"> More Info About Me:
+            <div className="col-6 col-lg-4 ml-auto"> More Info About Me:
                     <div className="contact-links">
                         <a href="https://github.com/thipsavanh">GitHub Page</a><br />
-                        <a href="https://www.linkedin.com/in/thipsavanh-douangboupha-a386b6191/">LinkedIn</a><br />
-                        <p>Email Address: thipsavanh@gmail.com</p><br />
-                        <a href={"../assets/images/Resume"}>Click to view resume</a><br />
+                        <a href="https://www.linkedin.com/in/thipsavanh-douangboupha-a386b6191/">LinkedIn</a><br /> 
+                        <a href={resume}>Click to view resume</a><br />
+                        <span>Email Address: thipsavanh@gmail.com</span><br />
                     </div>            
-                </div>
+            </div>
           </Form>
         </Content>
       </div>
