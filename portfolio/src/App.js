@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -34,7 +34,7 @@ class App extends React.Component {
 
 render() {
   return (
-    <Router>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Container className="p-0" fluid={true}>
         <Navbar className="border-bottom" bg="transparent" expand="lg">
           <Navbar.Brand>Thipsavanh Douangboupha</Navbar.Brand>
@@ -52,7 +52,7 @@ render() {
         <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
         <Footer />
       </Container>
-    </Router>
+    </HashRouter>
   );
 }
 }

@@ -62,12 +62,13 @@ class Contact extends React.Component {
             <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
               Send
             </Button>
+           
             <div className="col-12 col-lg-6"> More Info About Me:
                     <div className="contact-links">
-                        <a href="https://github.com/thipsavanh" >GitHub Page</a><br />
-                        <a href="https://www.linkedin.com/in/thipsavanh-douangboupha-a386b6191/" target="_blank">LinkedIn</a><br />
+                        <a href="https://github.com/thipsavanh">GitHub Page</a><br />
+                        <a href="https://www.linkedin.com/in/thipsavanh-douangboupha-a386b6191/">LinkedIn</a><br />
                         <p>Email Address: thipsavanh@gmail.com</p><br />
-                        <a href={"../assets/images/Resume"} target="_blank">Click to view resume</a><br />
+                        <a href={"../assets/images/Resume"}>Click to view resume</a><br />
                     </div>            
                 </div>
           </Form>
