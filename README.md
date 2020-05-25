@@ -8,4 +8,4 @@ You can find information about me and take a look at projects that I have comple
     
 
 ## License
-    MIT
+MIT
